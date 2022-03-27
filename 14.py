@@ -9,7 +9,7 @@ def pow_mod(x, y, z):
         x = x * x % z
     return number
 b=10**9+7
-x=pow_mod(K+1,N,b)
+x=pow_mod(K+1,N-1,b)
 
 if N==0:
     print(1)
